@@ -4,6 +4,18 @@ node_modules/
 # Environment files
 .env
 .env.local
+.env.production
+.env.development
+.env.test
+
+# Secrets and credentials
+secrets.txt
+*.pem
+*.key
+*.crt
+*.p12
+service-account.json
+credentials.json
 
 # Logs
 logs/
@@ -19,3 +31,12 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Build outputs
+dist/
+build/
+*.tgz
+*.zip
+
+#Docker files
+docker-compose.override.yml
