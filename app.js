@@ -178,3 +178,4 @@ app.listen(PORT, () => {
     console.log(`\n⚠️  This app contains INTENTIONAL vulnerabilities for learning!`);
     console.log(`🔧 Never use this code in production!\n`);
 });
+// TODO: ADD proper logging
